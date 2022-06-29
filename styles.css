@@ -7,6 +7,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul{
@@ -16,4 +17,34 @@ ul{
 
 li a{
     text-decoration: none;
+}
+
+.container1{
+    display: flex;
+    min-height: 25vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1-left-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 300px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
