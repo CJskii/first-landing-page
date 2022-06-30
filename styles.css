@@ -116,6 +116,7 @@ img{
     justify-content: space-around;
     align-items: center;
     min-height: 25vh;
+    padding: 50px;
 }
 
 .container2 h1{
@@ -124,7 +125,6 @@ img{
     color: #1f2937;
     padding: 10px;
     margin: 10px;
-    margin-top: 50px;
 }
 
 .card-box{
@@ -134,7 +134,6 @@ img{
     min-width: 20vw;
     gap: 50px;
     margin: 10px;
-    margin-bottom: 50px;
 }
 
 .card-frame{
@@ -169,6 +168,7 @@ img{
     align-items: center;
     min-height: 20vh;
     background-color: #e5e7eb;
+    padding: 50px;
 }
 
 .quote{
@@ -176,11 +176,13 @@ img{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding: 10px;
 }
 
 .thor{
     width: 50vw;
     text-align: right;
+    font-weight: bold;
 }
 
 /* CONTAINER 4 */
@@ -195,15 +197,28 @@ img{
 .action{
     display: flex;
     min-height: 10vh;
-    min-width: 60vw;
+    min-width: 50vw;
     justify-content: center;
     align-items: center;
     gap: 5vw;
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.action-text{
+    padding: 5px;
+    margin: 10px;
 }
 
 .sign{
     background-color: #3882f6;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #f9faf8;
+    border: #f9faf8 solid 1px;
+    font-weight: bold;
 }
 
 /* footer */
