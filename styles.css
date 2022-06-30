@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -93,10 +92,11 @@ li a{
 .c1-left-text button{
     background-color: #3882f6;
     padding: 5px 20px;
-    margin: 0 10px;
+    margin: 0 15px;
     border-radius: 10px;
     color: #f9faf8;
     font-weight: bold;
+    border: none;
     
 }
 
@@ -228,5 +228,8 @@ img{
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    min-height: 75px;
+    color: #f9faf8;
+    padding: 10px;
 }
 
