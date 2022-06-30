@@ -10,6 +10,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul{
@@ -28,6 +34,7 @@ li a{
     min-height: 25vh;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
 }
 
 .container1-left{
@@ -43,6 +50,17 @@ li a{
     justify-content: center;
     width: 25vw;
     height: 300px;
+}
+
+.c1-left-text h1{
+    font-size: 48px;
+    font-style: bold;
+    color: #f9faf8;
+}
+
+.c1-left-text p{
+    font-size: 24px;
+    color: #e5e7eb;
 }
 
 img{
@@ -63,6 +81,12 @@ img{
     min-height: 25vh;
 }
 
+.container2 h1{
+    font-size: 36px;
+    font-style: bold;
+    color: #1f2937;
+}
+
 .card-box{
     display: flex;
     justify-content: center;
@@ -71,7 +95,7 @@ img{
 }
 
 .card-frame{
-    border: 2px blue solid;
+    border: 2px #3882f6 solid;
     width: 100px;
     height: 100px;
     border-radius: 10%;
@@ -96,10 +120,14 @@ img{
     justify-content: center;
     align-items: center;
     min-height: 20vh;
+    background-color: #e5e7eb;
 }
 
 .quote{
     width: 50vw;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .thor{
@@ -123,6 +151,11 @@ img{
     justify-content: center;
     align-items: center;
     gap: 5vw;
+    background-color: #3882f6;
+}
+
+.sign{
+    background-color: #3882f6;
 }
 
 /* footer */
@@ -131,5 +164,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
 }
 
