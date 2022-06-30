@@ -98,3 +98,20 @@ img{
     width: 50vw;
     text-align: right;
 }
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.action{
+    display: flex;
+    min-height: 10vh;
+    min-width: 60vw;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
