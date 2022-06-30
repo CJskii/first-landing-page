@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
 /* NAVBAR */ 
@@ -11,20 +12,32 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 10px;
+    margin: auto;
 }
 
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    padding: 5px;
+    margin-left: 15vw;
+}
+
+.nav-links{
+    margin-right: 10vw;
+    padding: 5px;
 }
 
 ul{
     display: flex;
     list-style: none;
+    color: #f9faf8;
 }
 
 li a{
     text-decoration: none;
+    padding: 5px;
+    margin: 5px;
 }
 
 /* CONTAINER 1 */
@@ -35,6 +48,8 @@ li a{
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    padding: 10px;
+    margin: auto;
 }
 
 .container1-left{
@@ -42,25 +57,47 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    margin: 5px;
 }
 
 .c1-left-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 25vw;
     height: 300px;
+    
 }
 
 .c1-left-text h1{
     font-size: 48px;
     font-style: bold;
     color: #f9faf8;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .c1-left-text p{
     font-size: 24px;
     color: #e5e7eb;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.c1-left-text button{
+    background-color: #3882f6;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+    
 }
 
 img{
