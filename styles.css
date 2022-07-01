@@ -131,15 +131,14 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 20vw;
-    gap: 50px;
-    margin: 10px;
+    gap: 7vw;
+    margin: 50px;
 }
 
 .card-frame{
     border: 2px #3882f6 solid;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10%;
     margin: 10px;
     padding: 10px;
