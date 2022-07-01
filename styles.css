@@ -166,11 +166,11 @@ img{
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 50px;
+    padding: 100px;
 }
 
 .quote{
-    width: 50vw;
+    width: 66vw;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -178,9 +178,10 @@ img{
 }
 
 .thor{
-    width: 50vw;
+    width: 64vw;
     text-align: right;
     font-weight: bold;
+    padding: 10px;
 }
 
 /* CONTAINER 4 */
@@ -189,13 +190,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
+    padding: 50px;
 }
 
 .action{
     display: flex;
-    min-height: 10vh;
-    min-width: 50vw;
+    min-width: 66vw;
     justify-content: center;
     align-items: center;
     gap: 5vw;
@@ -206,7 +206,13 @@ img{
 
 .action-text{
     padding: 5px;
-    margin: 10px;
+    margin: 50px auto;
+}
+
+
+
+.button-container{
+    margin: 25px auto;
 }
 
 .sign{
