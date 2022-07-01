@@ -23,7 +23,7 @@
 }
 
 .nav-links{
-    margin-right: 10vw;
+    margin-right: 13.5vw;
     padding: 5px;
 }
 
@@ -43,7 +43,6 @@ li a{
 
 .container1{
     display: flex;
-    min-height: 25vh;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
@@ -65,7 +64,7 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 25vw;
+    width: 35vw;
     height: 300px;
     
 }
@@ -101,11 +100,13 @@ li a{
 }
 
 img{
-    width: 400px;
+    width: 34vw;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: fill;
+    
 }
 
 /* CONTAINER 2 */
@@ -115,7 +116,6 @@ img{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-height: 25vh;
     padding: 50px;
 }
 
@@ -166,7 +166,6 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
     background-color: #e5e7eb;
     padding: 50px;
 }
