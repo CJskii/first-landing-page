@@ -19,7 +19,7 @@
     font-size: 24px;
     color: #f9faf8;
     padding: 5px;
-    margin-left: 15vw;
+    margin-left: 16vw;
 }
 
 .nav-links{
@@ -46,7 +46,7 @@ li a{
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    padding: 10px;
+    padding: 100px;
     margin: auto;
 }
 
@@ -55,6 +55,7 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: space-between;
     padding: 5px;
     margin: 5px;
 }
@@ -62,18 +63,17 @@ li a{
 .c1-left-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
     align-items: flex-start;
     width: 35vw;
-    height: 300px;
-    
+    height: 300px;    
 }
 
 .c1-left-text h1{
     font-size: 48px;
     font-style: bold;
     color: #f9faf8;
-    padding: 10px;
+    padding: 25px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -81,17 +81,21 @@ li a{
 .c1-left-text p{
     font-size: 24px;
     color: #e5e7eb;
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 25px;
+    margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
+
 }
 
 
 .c1-left-text button{
     background-color: #3882f6;
     padding: 5px 20px;
-    margin: 0 15px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 5px;
     border-radius: 10px;
     color: #f9faf8;
     font-weight: bold;
@@ -105,7 +109,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: fill;
+    object-fit: cover;
     
 }
 
